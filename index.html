@@ -12,71 +12,71 @@
 </head>
 <body class=" bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first  w-[60%]">
-            <div class="logo invert my-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+        <div class="first w-[14%] sm:w-[21%] md:w-[60%]">
+            <div class="logo invert sticky top-0 backdrop-blur-xl bg-white/100 bg-opacity-30 z-10">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class=" py-4 mx-14 w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
             </div>
 
-            <div class="sidebar flex justify-start">
-                <ul class="flex flex-col text-xl space-y-3 px-8 font-bold">
+            <div class="sidebar flex justify-start sticky -top-10">
+                <ul class="flex flex-col text-sm md:text-xl space-y-1 px-0 sm:px-8 md:px-8 font-bold">
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">home</span>
-                        Home
+                        <span class="hidden md:block"> Home </span>
                     </li>
 
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             search
                         </span>
-                        Explore</li>
+                        <span class="hidden md:block"> Explore</li> </span>
 
                     <li class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             notifications
                         </span>
-                        Notifications
+                        <span class="hidden md:block"> Notifications </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             mail
                         </span>
-                        Messages
+                        <span class="hidden md:block"> Messages </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             indeterminate_check_box
                         </span>
-                        Grok
+                        <span class="hidden md:block"> Grok </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             list_alt
                         </span>
-                        Lists
+                        <span class="hidden md:block"> Lists </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             group
                         </span>
-                        Communities
+                        <span class="hidden md:block"> Communities </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             workspace_premium
                         </span>
-                        Premium
+                        <span class="hidden md:block"> Premium </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             person
                         </span>
-                        Profile
+                        <span class="hidden md:block"> Profile </span>
                     </li>
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-3xl px-5 py-2">
                         <span class="material-symbols-outlined text-3xl">
                             more_horiz
                         </span>
-                        More
+                        <span class="hidden md:block"> More </span>
                     </li>
 
                     <button class="bg-blue-500 py-3 rounded-full">Post</button>
@@ -101,7 +101,7 @@
 
         </div>
 
-        <div class="second w-[160%] border-[1px] border-x-white border-y-black">
+        <div class="second w-[160%] border-[1px] border-x-gray-700 border-y-black">
             <div class="top flex p-3 relative">
                 <div class="absolute w-20 h-1 bg-blue-500 bottom-0 left-[18%]"></div>
                 <div class="left w-1/2 flex justify-center font-bold text-lg">For You</div>
@@ -134,27 +134,27 @@
 
                     <div class="m-2 flex justify-between">
                         <div>
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 image_search
                             </span>
                             
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 gif_box
                             </span>
     
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 sort
                             </span>
     
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 sentiment_satisfied
                             </span>
     
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 calendar_month
                             </span>
     
-                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 cursor-pointer">
+                            <span class="material-symbols-outlined p-1 rounded-full text-blue-600 hover:bg-blue-950 hover:bg-opacity-20 cursor-pointer">
                                 location_on
                             </span>  
 
@@ -183,20 +183,267 @@
                     <div class="image mr-4">
                         <img class="w-12 rounded-full" src="https://pbs.twimg.com/profile_images/1691007146723516416/T3XEkZfD_bigger.png" alt="img">
                     </div>
-                    <div class="content">
-                        <span class="font-bold hover:underline text-white">non asthetic things</span>
-                        <span class="text-gray-700">@PicturesFolder . 6h</span>
+                    <div class="content flex flex-col">
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold hover:underline text-white">non asthetic things</span>
+                                <span class="text-gray-700">@PicturesFolder . 6h</span>
+                            </div>
+
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
                         <div>legend</div>
-                        <div class="postimg my-2">
-                            <img class="rounded-3xl" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="">
+                        <div class="postimg my-2 pr-6">
+                            <img class="rounded-3xl w-[500px] h-[600px]" src="https://images.unsplash.com/photo-1512850183-6d7990f42385?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+                        </div>
+
+                        <div class="icons flex justify-between">
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-blue-600">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-blue-950 ">
+                                    chat_bubble
+                                </span>
+                                <span>7.1K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-pink-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-pink-950 ">
+                                    repeat
+                                </span>
+                                <span>24K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-orange-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-orange-700 ">
+                                    favorite
+                                </span>
+                                <span>325K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-yellow-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-yellow-600 ">
+                                    signal_cellular_alt
+                                </span>
+                                <span>33M</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center text-gray-500 gap-2">
+                                <span class="material-symbols-outlined  hover:text-violet-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-violet-950 ">
+                                    book
+                                </span>
+                                <span class="material-symbols-outlined mb-1 hover:text-green-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-green-950 ">
+                                    ios_share
+                                </span>
+                            </div>
+    
                         </div>
                     </div>
+                    
                 </div>
+
+                <div class="h-[1px] w-full bg-gray-700"></div>
+
+
+                <div class="post flex m-2">
+                    <div class="image mr-4">
+                        <img class="w-12 rounded-full" src="https://image.shutterstock.com/image-vector/people-icon-isolated-flat-design-260nw-401277397.jpg" alt="img">
+                    </div>
+                    <div class="content flex flex-col">
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold hover:underline text-white">non asthetic things</span>
+                                <span class="text-gray-700">@PicturesFolder . 6h</span>
+                            </div>
+
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div>Serenity</div>
+                        <div class="postimg my-2 pr-6">
+                            <img class="rounded-3xl w-[500px] h-[600px]" src="https://images.unsplash.com/photo-1436891620584-47fd0e565afb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+                        </div>
+
+                        <div class="icons flex justify-between">
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-blue-600">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-blue-950 ">
+                                    chat_bubble
+                                </span>
+                                <span>7.1K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-pink-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-pink-950 ">
+                                    repeat
+                                </span>
+                                <span>24K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-orange-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-orange-700 ">
+                                    favorite
+                                </span>
+                                <span>325K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-yellow-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-yellow-600 ">
+                                    signal_cellular_alt
+                                </span>
+                                <span>33M</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center text-gray-500 gap-2">
+                                <span class="material-symbols-outlined  hover:text-violet-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-violet-950 ">
+                                    book
+                                </span>
+                                <span class="material-symbols-outlined mb-1 hover:text-green-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-green-950 ">
+                                    ios_share
+                                </span>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="h-[1px] w-full bg-gray-700"></div> 
+
+                <div class="post flex m-2">
+                    <div class="image mr-4">
+                        <img class="w-12 rounded-full" src="https://image.shutterstock.com/image-vector/people-icon-260nw-522300817.jpg" alt="img">
+                    </div>
+                    <div class="content flex flex-col">
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold hover:underline text-white">non asthetic things</span>
+                                <span class="text-gray-700">@PicturesFolder . 6h</span>
+                            </div>
+
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div>Caves</div>
+                        <div class="postimg my-2 pr-6">
+                            <img class="rounded-3xl w-[500px] h-[600px]" src="https://plus.unsplash.com/premium_photo-1674657644179-c921a61debb9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+                        </div>
+
+                        <div class="icons flex justify-between">
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-blue-600">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-blue-950 ">
+                                    chat_bubble
+                                </span>
+                                <span>7.1K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-pink-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-pink-950 ">
+                                    repeat
+                                </span>
+                                <span>24K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-orange-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-orange-700 ">
+                                    favorite
+                                </span>
+                                <span>325K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-yellow-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-yellow-600 ">
+                                    signal_cellular_alt
+                                </span>
+                                <span>33M</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center text-gray-500 gap-2">
+                                <span class="material-symbols-outlined  hover:text-violet-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-violet-950 ">
+                                    book
+                                </span>
+                                <span class="material-symbols-outlined mb-1 hover:text-green-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-green-950 ">
+                                    ios_share
+                                </span>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="h-[1px] w-full bg-gray-700"></div> 
+
+                <div class="post flex m-2">
+                    <div class="image mr-4">
+                        <img class="w-12 rounded-full" src="https://image.shutterstock.com/image-vector/person-icon-260nw-282598823.jpg" alt="img">
+                    </div>
+                    <div class="content flex flex-col">
+                        <div class="flex justify-between">
+                            <div>
+                                <span class="font-bold hover:underline text-white">non asthetic things</span>
+                                <span class="text-gray-700">@PicturesFolder . 6h</span>
+                            </div>
+
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div>Ocean</div>
+                        <div class="postimg my-2 pr-6">
+                            <img class="rounded-3xl w-[500px] h-[600px]" src="https://images.unsplash.com/photo-1548032885-b5e38734688a?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+                        </div>
+
+                        <div class="icons flex justify-between">
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-blue-600">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-blue-950 ">
+                                    chat_bubble
+                                </span>
+                                <span>7.1K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-pink-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-pink-950 ">
+                                    repeat
+                                </span>
+                                <span>24K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-orange-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-orange-700 ">
+                                    favorite
+                                </span>
+                                <span>325K</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center gap-2 text-gray-500 hover:text-yellow-400">
+                                <span class="material-symbols-outlined p-1.5 rounded-full hover:bg-opacity-20 hover:bg-yellow-600 ">
+                                    signal_cellular_alt
+                                </span>
+                                <span>33M</span>
+                            </div>
+    
+                            <div class="icon flex justify-center items-center text-gray-500 gap-2">
+                                <span class="material-symbols-outlined  hover:text-violet-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-violet-950 ">
+                                    book
+                                </span>
+                                <span class="material-symbols-outlined mb-1 hover:text-green-700 p-1.5 rounded-full hover:bg-opacity-20 hover:bg-green-950 ">
+                                    ios_share
+                                </span>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="h-[1px] w-full bg-gray-700"></div> 
             </div>
 
-        </div>
+        </div>     
 
-        <div class="third w-full">
+        <div class="third w-full hidden md:block">
             <div class="search m-3 flex relative">
                     <span class="material-symbols-outlined text-2xl z-10 absolute left-2 top-1">
                         search
